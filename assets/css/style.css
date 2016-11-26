@@ -1,0 +1,34 @@
+body {
+    height: 5000px
+}
+
+.content {
+    width: 100%;
+}
+
+.side-bar {
+    display: block;
+    float: right;
+    height: 2000px;
+    width: 30%;
+    background: #EEE;
+}
+
+.left-col {
+    width: 30%;
+    display: inline-block;
+    background: #EEE;
+}
+
+.side-bar_fixed {
+    position: fixed;
+    bottom: 15px;
+    right: 0;
+}
+
+.side-bar_fixed-top {
+    position: fixed;
+    top: 5px;
+    right: 0;
+    margin: 0 !important;
+}
